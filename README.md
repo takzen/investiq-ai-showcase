@@ -103,10 +103,10 @@ If you’re a **recruiter**, **collaborator**, or **potential partner**, feel fr
 
 Here are a few glimpses into the InvestIQ user interface and core features.
 
-| Portfolio Dashboard | Market News Aggregation |
-| :---: | :---: |
-| ![Portfolio Details View](images/1.png) | ![Latest Financial News Feed](images/2.png) |
-| *Details and performance metrics of a selected portfolio.* | *Aggregated feed of the latest relevant market news.* |
+| Home Page | Portfolios Dashboard | Holdings & Charts | News Feed | Watchlist |
+| :---: | :---: | :---: | :---: | :---: |
+| ![Strona główna serwisu](images/home.png) | ![Strona z portfelami](images/portfolios.png) | ![Portfel z holdingami i wykresami](images/holdings.png) | ![Ostatnie newsy w portfelu](images/news.png) | ![Lista obserwowanych](images/watchlist.png) |
+| *Welcome screen and main navigation.* | *Overview of all user portfolios.* | *Details and performance metrics.* | *Aggregated feed of the latest relevant market news.* | *Track assets outside your main portfolios.* |
 
 ---
 
