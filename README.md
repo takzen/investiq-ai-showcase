@@ -12,10 +12,10 @@ It combines financial analytics, AI-driven insights, and seamless automation to 
 InvestIQ is built as a modern, cloud-native web application leveraging AI for financial intelligence.
 It focuses on:
 
-* Portfolio tracking and performance analytics
-* Market data aggregation and sentiment insights
-* Automated document summarization and reporting
-* AI-powered portfolio assistant
+- Portfolio tracking and performance analytics
+- Market data aggregation and sentiment insights
+- Automated document summarization and reporting
+- AI-powered portfolio assistant
 
 ---
 
@@ -37,43 +37,48 @@ It focuses on:
 This roadmap outlines the major phases and features planned for InvestIQ.
 
 ### **Phase 1: MVP - "Personal Portfolio Monitor"**
-*Goal: User can manually input their portfolio and view its current value.*
-*Status: Completed!* ✅
 
-*   Step 0: Tech Foundations ✅
-*   Step 1: Authentication (Clerk Integration) ✅
-*   Step 2: Backend - Portfolio API Endpoints ✅
-*   Step 3: Database - Cloudflare D1 Schema & Connection ✅
-*   Step 4: Secure Backend (Clerk Middleware for Auth) ✅
-*   Step 5: Frontend - Portfolio UI (TanStack Query Integration) ✅
+_Goal: User can manually input their portfolio and view its current value._
+_Status: Completed!_ ✅
+
+- Step 0: Tech Foundations ✅
+- Step 1: Authentication (Clerk Integration) ✅
+- Step 2: Backend - Portfolio API Endpoints ✅
+- Step 3: Database - Cloudflare D1 Schema & Connection ✅
+- Step 4: Secure Backend (Clerk Middleware for Auth) ✅
+- Step 5: Frontend - Portfolio UI (TanStack Query Integration) ✅
 
 ### **Phase 2: Core Functionality Expansion**
-*Focus: Adding key visualization, data, and user management features.*
-*Status: Completed!* ✅
 
-*   Step 6: Data Visualizations and Charts ✅
-*   Step 7: Financial News Aggregation ✅
-*   Step 8: Transaction Import (from File) ✅
-*   Step 9: Watchlists Implementation ✅
+_Focus: Adding key visualization, data, and user management features._
+_Status: Completed!_ ✅
+
+- Step 6: Data Visualizations and Charts ✅
+- Step 7: Financial News Aggregation ✅
+- Step 8: Transaction Import (from File) ✅
+- Step 9: Watchlists Implementation ✅
 
 ### **Phase 3: AI-Powered Insights (Current Phase)**
-*Focus: Leveraging AI to deliver intelligent, unique value.*
 
-*   Step 10: Document Summarization (AI) ⏳
-*   Step 11: Market Sentiment Analysis (AI)
-*   Step 12: Interactive Portfolio Assistant (AI)
+_Focus: Leveraging AI to deliver intelligent, unique value._
+
+- Step 10: Document Summarization (AI) ✅
+- Step 11: Market Sentiment Analysis (AI) ⏳
+- Step 12: Interactive Portfolio Assistant (AI)
 
 ### **Phase 4: Maturity and Monetization**
-*Focus: Preparing the platform for commercial use and ensuring stability.*
 
-*   Step 13: User and Team Management
-*   Step 14: Payment Integration (Subscriptions)
-*   Step 15: Advanced Reporting (PDF Export)
-*   Step 16: Technical Cleanup & Security (Secrets Management)
+_Focus: Preparing the platform for commercial use and ensuring stability._
+
+- Step 13: User and Team Management
+- Step 14: Payment Integration (Subscriptions)
+- Step 15: Advanced Reporting (PDF Export)
+- Step 16: Technical Cleanup & Security (Secrets Management)
 
 #### **Legend**
-*   **✅ Completed**
-*   **⏳ In Progress**
+
+- **✅ Completed**
+- **⏳ In Progress**
 
 ---
 
@@ -81,10 +86,10 @@ This roadmap outlines the major phases and features planned for InvestIQ.
 
 InvestIQ is developed following modern best practices:
 
-* **Monorepo architecture** (frontend, backend, and shared packages)
-* **End-to-end TypeScript** for type safety
-* **Serverless-first** infrastructure for scalability i low latency
-* **Continuous integration** with automated testing and preview deployments
+- **Monorepo architecture** (frontend, backend, and shared packages)
+- **End-to-end TypeScript** for type safety
+- **Serverless-first** infrastructure for scalability i low latency
+- **Continuous integration** with automated testing and preview deployments
 
 ---
 
@@ -103,10 +108,15 @@ If you’re a **recruiter**, **collaborator**, or **potential partner**, feel fr
 
 Here are a few glimpses into the InvestIQ user interface and core features.
 
-| Home Page | Portfolios Dashboard | Holdings & Charts | News Feed | Watchlist |
-| :---: | :---: | :---: | :---: | :---: |
-| ![Strona główna serwisu](images/home2.png) | ![Strona z portfelami](images/portfolios2.png) | ![Portfel z holdingami i wykresami](images/holdings2.png) | ![Ostatnie newsy w portfelu](images/news2.png) | ![Lista obserwowanych](images/watchlist2.png) |
-| *Welcome screen and main navigation.* | *Overview of all user portfolios.* | *Details and performance metrics.* | *Aggregated feed of the latest relevant market news.* | *Track assets outside your main portfolios.* |
+|               Home Page               |              Portfolios Dashboard              |             Holdings & Charts              |
+| :-----------------------------------: | :--------------------------------------------: | :----------------------------------------: |
+|  ![Welcome screen](images/home2.png)  | ![Portfolios Overview](images/portfolios2.png) | ![Portfolio Details](images/holdings2.png) |
+| _Welcome screen and main navigation._ |       _Overview of all user portfolios._       |     _Details and performance metrics._     |
+
+|                       News Feed                       |                  Watchlist                   |                   AI Document Summarizer                    |
+| :---------------------------------------------------: | :------------------------------------------: | :---------------------------------------------------------: |
+|           ![Latest News](images/news2.png)            |   ![Tracked Assets](images/watchlist2.png)   | ![AI-Powered Summarization](images/document_summarizer.png) |
+| _Aggregated feed of the latest relevant market news._ | _Track assets outside your main portfolios._ |        _Leveraging AI for quick document insights._         |
 
 ---
 
@@ -120,6 +130,7 @@ Focused on building tools that help users make smarter investment decisions.
 ## 📬 Contact
 
 📧 **[takzen.app@gmail.com](mailto:takzen.app@gmail.com)**
+🌐 [investiq-ai.com](https://investiq-ai.com)
 
 ---
 
