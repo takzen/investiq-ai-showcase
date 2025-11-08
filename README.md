@@ -63,8 +63,8 @@ _Status: Completed!_ ✅
 _Focus: Leveraging AI to deliver intelligent, unique value._
 
 - Step 10: Document Summarization (AI) ✅
-- Step 11: Market Sentiment Analysis (AI) ⏳
-- Step 12: Interactive Portfolio Assistant (AI)
+- Step 11: Market Sentiment Analysis (AI) ✅
+- Step 12: Interactive Portfolio Assistant (AI) ⏳
 
 ### **Phase 4: Maturity and Monetization**
 
@@ -110,7 +110,7 @@ Here are a few glimpses into the InvestIQ user interface and core features.
 
 |               Home Page               |              Portfolios Dashboard              |             Holdings & Charts              |
 | :-----------------------------------: | :--------------------------------------------: | :----------------------------------------: |
-|  ![Welcome screen](images/home2.png)  | ![Portfolios Overview](images/portfolios2.png) | ![Portfolio Details](images/holdings2.png) |
+|  ![Welcome screen](images/home.png)   | ![Portfolios Overview](images/portfolios2.png) | ![Portfolio Details](images/holdings2.png) |
 | _Welcome screen and main navigation._ |       _Overview of all user portfolios._       |     _Details and performance metrics._     |
 
 |                       News Feed                       |                  Watchlist                   |                   AI Document Summarizer                    |
