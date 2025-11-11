@@ -25,7 +25,7 @@ It focuses on:
 | ---------- | ----------------------------------- |
 | Frontend   | Next.js + TypeScript + Tailwind CSS |
 | Backend    | Cloudflare Workers (Hono)           |
-| Database   | Cloudflare D1                       |
+| Database   | Cloudflare D1/KV                    |
 | AI         | Google Gemini API                   |
 | Deployment | Vercel + Cloudflare                 |
 | CI/CD      | GitHub Actions                      |
@@ -150,15 +150,17 @@ Here are a few glimpses into the InvestIQ user interface and core features.
 |  ![Welcome screen](images/home.webp)  | ![Portfolios Overview](images/portfolios.webp) | ![Portfolio Details](images/holdings.webp) |
 | _Welcome screen and main navigation._ |       _Overview of all user portfolios._       |     _Details and performance metrics._     |
 
-|            News Feed & Sentiment Analysis             |                   Watchlist & Smart Analytics                    |                    AI Document Summarizer                    |
-| :---------------------------------------------------: | :--------------------------------------------------------------: | :----------------------------------------------------------: |
-|           ![Latest News](images/news.webp)            |             ![Tracked Assets](images/watchlist.webp)             | ![AI-Powered Summarization](images/document_summarizer.webp) |
-| _Aggregated feed of the latest relevant market news._ | _Watchlists with smart portfolio analytics (correlation, risk)._ |         _Leveraging AI for quick document insights._         |
+|            News Feed & Sentiment Analysis             |                   Watchlist & Smart Analytics                    |                    AI Document Summarizer                    |             Interactive Assistant              |
+| :---------------------------------------------------: | :--------------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------------: |
+|           ![Latest News](images/news.webp)            |             ![Tracked Assets](images/watchlist.webp)             | ![AI-Powered Summarization](images/document_summarizer.webp) |      ![AI chat window](images/chat.webp)       |
+| _Aggregated feed of the latest relevant market news._ | _Watchlists with smart portfolio analytics (correlation, risk)._ |         _Leveraging AI for quick document insights._         | _AI-powered chat for quick portfolio queries._ |
 
-|        Interactive Portfolio Assistant         |
-| :--------------------------------------------: |
-|      ![AI chat window](images/chat.webp)       |
-| _AI-powered chat for quick portfolio queries._ |
+|                  Portfolio Risk Metrics                   |                Sector Exposure Analysis                 |
+| :-------------------------------------------------------: | :-----------------------------------------------------: |
+|             ![Risk Metrics](images/risk.webp)             |        ![Sector Allocation](images/sector.webp)         |
+| _Key metrics like Sharpe Ratio, Beta, and VaR (VaR 95%)._ | _Allocation chart and alerts for sector concentration._ |
+
+---
 
 ---
 
