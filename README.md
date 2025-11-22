@@ -77,20 +77,20 @@ InvestIQ is built on a modern, serverless architecture designed for scalability 
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    USER (Browser/Mobile)                     │
+│                    USER (Browser/Mobile)                    │
 ├─────────────────────────────────────────────────────────────┤
 │  Clerk Auth   │  Next.js Frontend  │  TanStack Query        │
 └────────┬──────────────┬─────────────────────┬───────────────┘
          │              │                     │
          ▼              ▼                     ▼
 ┌─────────────────────────────────────────────────────────────┐
-│          CLOUDFLARE WORKERS (Hono Backend API)               │
+│          CLOUDFLARE WORKERS (Hono Backend API)              │
 ├─────────────────────────────────────────────────────────────┤
-│  • Organization Middleware    • Billing Integration          │
+│  • Organization Middleware    • Billing Integration         │
 │  • RBAC Enforcement          • Rate Limiting (Upstash)      │
 │  • Usage Limits              • PDF Generation               │
 │  • Audit Logging             • Input Validation (Zod)       │
-└────┬─────────┬──────────┬──────────┬──────────┬────────────┘
+└────┬─────────┬──────────┬──────────┬──────────┬─────────────┘
      │         │          │          │          │
      ▼         ▼          ▼          ▼          ▼
 ┌──────────┐ ┌─────────┐ ┌────────┐ ┌──────────┐ ┌─────────┐
