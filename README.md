@@ -76,29 +76,28 @@
 InvestIQ is built on a modern, serverless architecture designed for scalability and performance:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    USER (Browser/Mobile)                    │
-├─────────────────────────────────────────────────────────────┤
-│  Clerk Auth   │  Next.js Frontend  │  TanStack Query        │
-└────────┬──────────────┬─────────────────────┬───────────────┘
-         │              │                     │
-         ▼              ▼                     ▼
-┌─────────────────────────────────────────────────────────────┐
-│          CLOUDFLARE WORKERS (Hono Backend API)              │
-├─────────────────────────────────────────────────────────────┤
-│  • Organization Middleware    • Billing Integration         │
-│  • RBAC Enforcement          • Rate Limiting (Upstash)      │
-│  • Usage Limits              • PDF Generation               │
-│  • Audit Logging             • Input Validation (Zod)       │
-└────┬─────────┬──────────┬──────────┬──────────┬─────────────┘
-     │         │          │          │          │
-     ▼         ▼          ▼          ▼          ▼
-┌──────────┐ ┌─────────┐ ┌────────┐ ┌──────────┐ ┌─────────┐
-│ D1 (SQL) │ │ KV Cache│ │ Stripe │ │  Gemini  │ │ Upstash │
-│ Database │ │ Storage │ │   API  │ │ AI API   │ │  Redis  │
-│          │ │         │ │        │ │          │ │ (Rate   │
-│ SQLite   │ │ Sessions│ │ Billing│ │ Chat/AI  │ │ Limit)  │
-└──────────┘ └─────────┘ └────────┘ └──────────┘ └─────────┘
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                             USER (Browser/Mobile)                                │
+├──────────────────────────────────────────────────────────────────────────────────┤
+│      Clerk Auth      │        Next.js Frontend        │      TanStack Query      │
+└──────────┬──────────────────────────────┬──────────────────────────────┬─────────┘
+           │                              │                              │
+           ▼                              ▼                              ▼
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                      CLOUDFLARE WORKERS (Hono Backend API)                       │
+├──────────────────────────┬───────────────────────────┬───────────────────────────┤
+│ • Organization Middleware│ • Billing Integration     │ • Error Monitoring (Sentry│
+│ • RBAC Enforcement       │ • Rate Limiting (Upstash) │ • Input Validation (Zod)  │
+│ • Usage Limits           │ • PDF Generation          │ • Audit Logging           │
+└─────┬─────────────┬──────┴──────┬─────────────┬──────┴──────┬─────────────┬──────┘
+      │             │             │             │             │             │
+      ▼             ▼             ▼             ▼             ▼             ▼
+┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐
+│ D1 (SQL) │  │ KV Cache │  │ Upstash  │  │  Stripe  │  │  Gemini  │  │  Sentry  │
+│ Database │  │ Storage  │  │  Redis   │  │   API    │  │  AI API  │  │  Error   │
+│ (SQLite) │  │ (Session)│  │ (Limits) │  │ (Billing)│  │ (Chat/AI)│  │   Logs   │
+└──────────┘  └──────────┘  └──────────┘  └──────────┘  └──────────┘  └──────────┘
+
 ```
 
 ### Key Architectural Decisions
